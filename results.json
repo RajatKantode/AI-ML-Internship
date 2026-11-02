@@ -1,0 +1,106 @@
+{
+  "mnist": {
+    "test_accuracy": 0.9922999739646912,
+    "test_loss": 0.023916248232126236,
+    "test_errors": 77,
+    "test_size": 10000,
+    "epochs": 8,
+    "parameters": 225034,
+    "train_seconds": 76.5,
+    "final_train_acc": 0.9898518323898315,
+    "final_val_acc": 0.9923333525657654,
+    "per_class_recall": {
+      "0": 0.9979591836734694,
+      "1": 0.9982378854625551,
+      "2": 0.9922480620155039,
+      "3": 0.9930693069306931,
+      "4": 0.9989816700610998,
+      "5": 0.9910313901345291,
+      "6": 0.988517745302714,
+      "7": 0.9922178988326849,
+      "8": 0.9887063655030801,
+      "9": 0.981169474727453
+    }
+  },
+  "speech": {
+    "google_reachable": false,
+    "clips": [
+      {
+        "clip": "jfk",
+        "seconds": 11.0,
+        "reference": "and so my fellow americans ask not what your country can do for you ask what you can do for your country",
+        "sphinx": "and i got my fellow americans ask not what your kind brain can do for you and when you can do for your country",
+        "sphinx_wer": 0.273
+      },
+      {
+        "clip": "goforward",
+        "seconds": 2.8,
+        "reference": "go forward ten meters",
+        "sphinx": "go forward ten meters",
+        "sphinx_wer": 0.0
+      },
+      {
+        "clip": "english",
+        "seconds": 2.7,
+        "reference": "one two three",
+        "sphinx": "one two three",
+        "sphinx_wer": 0.0
+      }
+    ],
+    "jfk_direct_flac": {
+      "hypothesis": "and i am i've gone back and not why y'all have drained into radio and what you can you or your country",
+      "wer": 0.727
+    }
+  },
+  "fruit": {
+    "classes": [
+      "apple",
+      "banana",
+      "orange"
+    ],
+    "image_size": 64,
+    "train_images": 1241,
+    "val_images": 220,
+    "test_images": 490,
+    "epochs_run": 25,
+    "parameters": 27939,
+    "train_seconds": 49.1,
+    "val_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_loss": 1.959398559847614e-06,
+    "test_errors": 0,
+    "baseline_mean_colour_test_accuracy": 1.0,
+    "unseen_apple_varieties": {
+      "Apple Red 1": {
+        "n": 164,
+        "cnn_apple_rate": 1.0,
+        "cnn_predictions": {
+          "apple": 164,
+          "banana": 0,
+          "orange": 0
+        },
+        "baseline_apple_rate": 1.0
+      },
+      "Apple Golden 1": {
+        "n": 160,
+        "cnn_apple_rate": 0.0,
+        "cnn_predictions": {
+          "apple": 0,
+          "banana": 160,
+          "orange": 0
+        },
+        "baseline_apple_rate": 0.0
+      },
+      "Apple Granny Smith": {
+        "n": 164,
+        "cnn_apple_rate": 0.0,
+        "cnn_predictions": {
+          "apple": 0,
+          "banana": 164,
+          "orange": 0
+        },
+        "baseline_apple_rate": 0.40853658536585363
+      }
+    }
+  }
+}

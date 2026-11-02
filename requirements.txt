@@ -1,0 +1,14 @@
+# Versions this project was run with (Python 3.13, CPU only)
+tensorflow-cpu>=2.21        # or `tensorflow`; tested with 2.21.0
+numpy>=2.5
+scipy>=1.18
+matplotlib>=3.11
+scikit-learn>=1.9
+pillow>=12
+SpeechRecognition>=3.17
+pocketsphinx>=5.1           # offline speech engine
+soundfile>=0.14             # audio reading/writing (bundles libsndfile)
+jupyter                     # or just: pip install notebook ipykernel nbconvert
+
+# Optional, only for the microphone helper in Part 2:
+# pyaudio

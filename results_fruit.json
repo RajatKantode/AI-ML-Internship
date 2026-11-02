@@ -1,0 +1,53 @@
+{
+  "fruit": {
+    "classes": [
+      "apple",
+      "banana",
+      "orange"
+    ],
+    "image_size": 64,
+    "train_images": 1241,
+    "val_images": 220,
+    "test_images": 490,
+    "epochs_run": 19,
+    "parameters": 27939,
+    "train_seconds": 37.7,
+    "val_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_loss": 1.8192638890468515e-05,
+    "test_errors": 0,
+    "baseline_mean_colour_test_accuracy": 1.0,
+    "unseen_apple_varieties": {
+      "Apple Red 1": {
+        "n": 164,
+        "cnn_apple_rate": 1.0,
+        "cnn_predictions": {
+          "apple": 164,
+          "banana": 0,
+          "orange": 0
+        },
+        "baseline_apple_rate": 1.0
+      },
+      "Apple Golden 1": {
+        "n": 160,
+        "cnn_apple_rate": 0.0,
+        "cnn_predictions": {
+          "apple": 0,
+          "banana": 160,
+          "orange": 0
+        },
+        "baseline_apple_rate": 0.0
+      },
+      "Apple Granny Smith": {
+        "n": 164,
+        "cnn_apple_rate": 0.0,
+        "cnn_predictions": {
+          "apple": 0,
+          "banana": 164,
+          "orange": 0
+        },
+        "baseline_apple_rate": 0.40853658536585363
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "speech": {
+    "google_reachable": false,
+    "clips": [
+      {
+        "clip": "jfk",
+        "seconds": 11.0,
+        "reference": "and so my fellow americans ask not what your country can do for you ask what you can do for your country",
+        "sphinx": "and i got my fellow americans ask not what your kind brain can do for you and when you can do for your country",
+        "sphinx_wer": 0.273
+      },
+      {
+        "clip": "goforward",
+        "seconds": 2.8,
+        "reference": "go forward ten meters",
+        "sphinx": "go forward ten meters",
+        "sphinx_wer": 0.0
+      },
+      {
+        "clip": "english",
+        "seconds": 2.7,
+        "reference": "one two three",
+        "sphinx": "one two three",
+        "sphinx_wer": 0.0
+      }
+    ],
+    "jfk_direct_flac": {
+      "hypothesis": "and i am i've gone back and not why y'all have drained into radio and what you can you or your country",
+      "wer": 0.727
+    }
+  }
+}
